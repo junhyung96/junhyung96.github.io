@@ -16,3 +16,12 @@ $ bundle exec jekyll s
     tags: [TAG]     # TAG names should always be lowercase
     ---
   ```
+
+## history
+
+[Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
+
+git 저장소 추가
+```bash
+git remote add chirpy https://github.com/cotes2020/chirpy-starter.git
+```
