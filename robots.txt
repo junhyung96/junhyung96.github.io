@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://junhyung96.github.io/sitemap.xml

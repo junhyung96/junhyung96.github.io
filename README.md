@@ -25,3 +25,24 @@ git 저장소 추가
 ```bash
 git remote add chirpy https://github.com/cotes2020/chirpy-starter.git
 ```
+
+## Google Search Console
+
+### sitemap update
+add : Gemfile => gem 'jekyll-sitemap'
+```bash
+$ bundle install
+$ jekyll serve
+```
+https://junhyung96.github.io/sitemap.xml 로 접속 후
+내용 복사 후 sitemap.xml (기존 혹은 생성)파일에 내용 업데이트
+
+robots.txt 생성 및 아래 내용 추가
+```
+User-agent: *
+Allow: /
+
+Sitemap: https://junhyung96.github.io/sitemap.xml
+```
+google search console 사이트에서 sitemap 탭으로 이동
+사이트맵 추가 및 제출
