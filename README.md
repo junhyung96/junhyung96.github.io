@@ -17,6 +17,15 @@ $ bundle exec jekyll s
     ---
   ```
 
+### 코드영역 태그 안에서 사용하기
+
+태그에 markdown="1" 속성으로 jekyll 이 현재 태그 내부도 마크다운으로 파싱하도록 함
+```md
+<tag markdown="1">
+  코드 영역 (``` 코드 ```)
+</tag>
+```
+
 ## history
 
 [Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
